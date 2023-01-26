@@ -1,0 +1,43 @@
+{
+    "format_version": 1,
+    "tooth": "github.com/xingshuyu/x-robot",
+    "version": "1.1.0",
+    "dependencies": {},
+    "information": {
+        "name": "X-Robot",
+        "description": "A lightweight and convenient QQ robot",
+        "author": "XingShuyu",
+        "license": "GPL-3.0",
+        "homepage": "github.com/XingShuyu/X-Robot"
+    },
+    "placement": [
+        {
+            "source": "BDS-Deamon.cmd",
+            "destination": "BDS-Deamon.cmd"
+        },
+		{
+            "source": "BDS-zh_CN.bat",
+            "destination": "BDS-zh_CN.bat"
+        },
+		{
+            "source": "Manager.exe",
+            "destination": "Manager.exe"
+        },
+		{
+            "source": "start_go-cqhttp.bat",
+            "destination": "start_go-cqhttp.bat"
+        },
+		{
+            "source": "yaml-cpp.dll",
+            "destination": "yaml-cpp.dll"
+        },
+		{
+            "source": "plugins/*",
+            "destination": "plugins/*"
+        }
+    ],
+	"possession": [
+		"plugins/X-Robot/go-cqhttp/",
+		"plugins/X-Robot/CrashLog/"
+	]
+}
